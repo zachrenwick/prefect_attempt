@@ -41,5 +41,14 @@ next we will execute a flow run. a flow run can be initiated from prefect cloud 
 it then uses the local agent to run the flow (even though you intiated it from cloud UI!)
 
 
+Next, let's load prefect example flows for more learning:
+- create a new prefect examples project: $ prefect create project "prefect_examples"
+- register all examples into new project: $ prefect register --json https://docs.prefect.io/examples.json --project "prefect_examples"
+- this then registers a bunch of example flows from that json example file on prefect website
+
+
+
+
+
 
 
